@@ -1,0 +1,43 @@
+body {
+    background: red;
+}
+
+.displayCard {
+    height: 60%;
+    width: 70%;
+    background: teal;
+    display: block;
+    margin: auto;
+    padding-top:20px;
+    margin-top: 60px;
+}
+
+/* #questionCard,
+#timeoutCard,
+#correctCard,
+#incorrectCard,
+#finishCard {
+    opacity: 0; 
+}  
+
+#startCard {
+    opacity: 1; 
+} */
+
+h3 {
+    text-align:center;
+}
+
+p {
+    text-align:center;
+} 
+button {
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:15px;
+    width:20%;
+    background:teal;
+    border-color:teal;
+    border-style:solid;
+}

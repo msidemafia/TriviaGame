@@ -10,14 +10,85 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="jumbotron"
-    <div class="container">
-
-
-
-
-
-
+    <div id="bigBox">
+        <div class="displayCard" id="startCard">
+            <h3>
+                The Trivia Game!
+            </h3>
+            <br><br>
+            <button type="button" id="startButton">
+                Start
+            </button>
+        </div>
+        <div class="displayCard" id="questionCard">
+            <h3>
+                The Trivia Game!
+            </h3>
+            <p id="questionTime">
+                Time Remaining: 30
+            </p>
+            <p id="questionDisplay">
+            </p>
+            <button type="button" class="answerBtn" id="answer1">
+            </button>
+            <button type="button" class="answerBtn" id="answer2">
+            </button>
+            <button type="button" class="answerBtn" id="answer3">
+            </button>
+            <button type="button" class="answerBtn" id="answer4">
+            </button>
+        </div>
+        <div class="displayCard" id="timeoutCard">
+            <h3>
+                The Trivia Game!
+            </h3>
+            <p>
+                Out of Time!
+            </p>
+            <p class="displayCorrectAnswer">
+                The correct answer was: 
+            </p>
+        </div>
+        <div class="displayCard" id="correctCard">
+            <h3>
+                The Trivia Game!
+            </h3>
+            <br>
+            <p>
+                Correct!
+            </p>
+        </div>
+        <div class="displayCard" id="incorrectCard">
+            <h3>
+                The Trivia Game1
+            </h3>
+            <p>
+                Wrong!
+            </p>
+            <p class="displayCorrectAnswer">
+                The correct answer was: 
+            </p>
+        </div>
+        <div class="displayCard" id="finishCard">
+            <h3>
+                The Trivia Game!
+            </h3>
+            <p>
+                You're Done!
+            </p>
+            <p id="correctDisplay">
+                Correct Answers: 
+            </p>
+            <p id="incorrectDisplay">
+                Incorrect Answers: 
+            </p>
+            <p id="unansweredDisplay">
+                Unanswered: 
+            </p>
+            <button id="startOver">
+                Start Over
+            </button>
+        </div>
     </div>
 </body>
 <script type="text/javascript" src="assets/javascript/app.js"></script>
